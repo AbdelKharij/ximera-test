@@ -728,7 +728,7 @@ N_y^1(b) = \left| \{ x_j: x_j > y\} \right|.
 $$
 In words, this is the number of particles labeled by $1$ that are positioned to the right of $y$. 
 
-\begin{prop}
+\begin{proposition}
 (a) For $b$ given as in \eqref{seq}, the matrix $G$ is given by 
 $$
 G(b,b) = \left[\prod_{j=1}^{d(1)} Q q^{L+x_j-\vec{N}_{x_j}^1(b)} \right] \zeta_0 \left[\prod_{i=1}^{d(-1)} q^{L-y_i-\vec{N}^1_{y_i}(b)}\right],
@@ -747,7 +747,7 @@ $$
 (b) The operator $\mathcal{L}=G^{-1}(H-\lambda I)G$ is the generator of the open multi--species ASEP.
 
 (c) In particular, the measure $\pi(b) = G(b,b)^2$ is reversible for the process. 
-\end{prop}
+\end{proposition}
 \begin{proof}
 (a) By the previous lemma, we need only apply the $a^-_x$ in order, then $a_0$ (if needed), then $a^+_y$. In the application of $a_x^-$, the $k_{1/2}$ term on the left produces $q^{2x_j}$, while the $K_{-1/2}^{-1}$ on the right produces $q^{L-x_j-(d(1)-j)}$. The $-(d(1)-j)$ term comes from not counting the particles located at $x_{j+1},\ldots,x_{d(1)}$, and by definition equals $-N_{x_j}^1(b)$. The $a_0$ term gives $\zeta_0$. Finally, the $a^+_y$ only has a term on the right, which contributes $q^{L-y_j-N^1_{y_j}(b)}$; as before, the $-N_{y_i}^1(b)$ comes from not counting the particles labeled by $1$ that are to the right of $y_i$. 
 
@@ -780,10 +780,10 @@ The relation $\tilde{b}\subseteq b$ holds if and only if $c_{{b}}$ has a nonzero
 
 To complete the proof of Theorem \ref{OPEN}, it suffices to show the next proposition.
 
-\begin{prop}
+\begin{proposition}
 The functional $Db(\eta,\xi)$ can be written as $q^{ -d(\xi) (d(\xi)-1 ) }G^{-1}SG^{-1}$,
 where the constant $d(\xi)$ is defined by $ \vert A_1(\xi) \vert + \vert A_{-1}(\xi)\vert$.
-\end{prop}
+\end{proposition}
 \begin{proof}
 The $G^{-1}$ terms produce products over $A_1(\xi),A_1(\eta),A_{-1}(\xi),A_{-1}(\eta)$, while the $S$ produces products over $A_1(\eta) - A_1(\xi)$ and $A_{-1}(\eta)-A_{-1}(\xi)$. Let $\mathbf{1}$ denote the indicator term. First collect the products of $A_1$ sets, which are
 $$
