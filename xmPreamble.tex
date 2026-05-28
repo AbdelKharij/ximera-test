@@ -1,22 +1,46 @@
 \typeout{Start loading xmPreamble.tex}%
 
-% Add here extra macro's that are loaded automatically by all documents of claas 'ximera' or 'xourse' in this repo
+% % Add here extra macro's that are loaded automatically by all documents of claas 'ximera' or 'xourse' in this repo
 
-%%
-%%  Example:
-%%
-% \newcommand{\R}{\mathbb{R}}
+% %%
+% %%  Example:
+% %%
+% % \newcommand{\R}{\mathbb{R}}
+% \usepackage{amsmath,amssymb,amscd,amsthm,amsxtra, esint}
+% \usepackage{mathtools}
+% \usepackage{color}
+% \usepackage[implicit=true]{hyperref}
+% \usepackage{cases}
+% \usepackage{tikz}
+% \usetikzlibrary{positioning, arrows.meta}
+% \usepackage{multicol}
+% \usepackage{enumitem}
+% \usepackage{caption}
+
+% % \newtheorem{prop}[theorem]{Proposition}
+% \theoremstyle{remark}
+% % \newcommand{\bs}[1]{ \boldsymbol{#1} }
+% % \newcommand\scalemath[2]{\scalebox{#1}{\mbox{\ensuremath{\displaystyle #2}}}}
+
+% % \usepackage{authblk}
+
+% SchurWeylNotes
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{fullpage}
+\usepackage{color}
 \usepackage{tikz}
-\usetikzlibrary{positioning, arrows.meta}
-\usepackage{multicol}
-\usepackage{enumitem}
-\usepackage{caption}
-\usepackage{amsmath}
-\usepackage{amsthm}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{graphicx}
+%\newcommand{\cev}[1]{\reflectbox{\ensuremath{\vec{\reflectbox{\ensuremath{#1}}}}}}
 
-% \newtheorem{prop}[theorem]{Proposition}
+\renewcommand\vec[1]{\overrightarrow{#1}}
+\newcommand\cev[1]{\overleftarrow{#1}}
+\newcommand{\bk}{\bold{m}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
 \theoremstyle{remark}
-% \newcommand{\bs}[1]{ \boldsymbol{#1} }
-% \newcommand\scalemath[2]{\scalebox{#1}{\mbox{\ensuremath{\displaystyle #2}}}}
-
-% \usepackage{authblk}
+\newtheorem{remark}{Remark}
+\newtheorem{example}{Example}
+\newtheorem{definition}[theorem]{Definition}
