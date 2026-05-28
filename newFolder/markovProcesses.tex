@@ -32,7 +32,7 @@ exists. (Note: $P_{xx}(0) = 1$ since $P(0) = \text{Id}$.)
 \end{theorem}
 
 \begin{proof}[Proof (Outline)]
-Using that $P(t)$ is stochastic and satisfies the semigroup property,
+Using that $P(t)$ is stochastic and satisfies the semigroup propositionerty,
 \[
 1 \geq P_{xx}(s+t) = \sum_{y \in \mathcal{X}} P_{xy}(s) P_{yx}(t) \geq P_{xx}(s) P_{xx}(t).
 \]
@@ -81,7 +81,7 @@ That is, when the process first leaves $x$, it goes to $y$ with probability $q_{
 \end{proposition}
 
 \begin{proof}
-(1) We use the notation $P_x(\cdot) = P(\cdot \mid X_0 = x)$. First we show the memoryless property:
+(1) We use the notation $P_x(\cdot) = P(\cdot \mid X_0 = x)$. First we show the memoryless propositionerty:
 \[
 P_x(T_x > s + t) = P_x(T_x > s) P_x(T_x > t).
 \]
@@ -89,7 +89,7 @@ The left-hand side equals
 \[
 P_x(X_u = x\ \forall u \in [0, s+t]).
 \]
-Conditioning on $\{X_u = x\ \forall u \in [0,t]\}$ and applying the Markov property gives
+Conditioning on $\{X_u = x\ \forall u \in [0,t]\}$ and applying the Markov propositionerty gives
 \[
 P_x(T_x > s) P_x(T_x > t),
 \]
